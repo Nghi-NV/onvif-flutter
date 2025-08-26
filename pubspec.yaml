@@ -1,0 +1,43 @@
+name: onvif_flutter
+description: A comprehensive Flutter library for ONVIF (Open Network Video Interface Forum) protocol implementation. Supports camera streaming, playback, PTZ control, snapshots, events recording, and multi-channel NVR management.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  xml: ^6.5.0
+  crypto: ^3.0.3
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  convert: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  test: ^1.24.9
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter:
+  
+# Repository information
+repository: https://github.com/nghinguyen/onvif-flutter
+homepage: https://github.com/nghinguyen/onvif-flutter
+documentation: https://github.com/nghinguyen/onvif-flutter/wiki
+
+# Topics for better discoverability
+topics:
+  - onvif
+  - camera
+  - streaming
+  - ptz
+  - nvr
+  - ipcamera
+  - surveillance
+  - video
