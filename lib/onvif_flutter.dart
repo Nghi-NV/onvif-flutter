@@ -58,30 +58,26 @@ library onvif_flutter;
 // Client
 export 'client/onvif_client.dart';
 export 'client/transport.dart';
-
+// Exceptions
+export 'exceptions/onvif_exceptions.dart';
+// Models
+export 'models/device_information.dart';
+export 'models/media_profile.dart';
+export 'models/ptz_configuration.dart' hide Extension;
+export 'models/record_info.dart';
+export 'models/stream_uri.dart';
+export 'models/user_management.dart';
+export 'models/video_source.dart' hide VideoResolution, Extension;
+// Parsers
+export 'parsers/response_parser.dart';
 // Services
 export 'services/device_service.dart';
 export 'services/media_service.dart';
 export 'services/ptz_service.dart';
+export 'services/recording_segments_service.dart';
+export 'services/recording_service.dart';
 export 'services/search_service.dart';
 export 'services/user_management_service.dart';
-export 'services/recording_service.dart';
-export 'services/recording_segments_service.dart';
-
-// Models
-export 'models/device_information.dart';
-export 'models/media_profile.dart';
-export 'models/stream_uri.dart';
-export 'models/video_source.dart' hide VideoResolution, Extension;
-export 'models/ptz_configuration.dart' hide Extension;
-export 'models/user_management.dart';
-
-// Parsers
-export 'parsers/response_parser.dart';
-
 // Utils
 export 'utils/constants.dart';
 export 'utils/onvif_request.dart';
-
-// Exceptions
-export 'exceptions/onvif_exceptions.dart';
